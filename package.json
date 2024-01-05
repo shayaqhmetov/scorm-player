@@ -1,5 +1,5 @@
 {
-  "name": "scorm-player",
+  "name": "ak-scorm-player",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -9,9 +9,23 @@
     "clean": "node src/scripts/clean.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": ["dist/**/*"],
+  "publishConfig": {
+    "access": "restricted",
+    "team": "ak",
+    "tag": "latest"
+  },
   "author": "Ruslan Shayakhmetov",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.3.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shayaqhmetov/scorm-player.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shayaqhmetov/scorm-player/issues"
+  },
+  "homepage": "https://github.com/shayaqhmetov/scorm-player"
 }
